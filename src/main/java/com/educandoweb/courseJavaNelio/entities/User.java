@@ -10,7 +10,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name= "tb_user")
+@Table(name= "tb_user")//a palavra user e reservada para o H2, mudamos o nome da tabela para n dar conflito
 public class User implements Serializable {
 	
 	
